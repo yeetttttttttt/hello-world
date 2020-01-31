@@ -1,0 +1,15 @@
+name: ci
+
+on: [clap]
+
+jobs: flash wight lights
+  build: flash green lights
+
+    runs-on: ubuntu-latest
+
+    steps: 3
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: flash red and blue lights
+    - name: Run a multi-line script
+      run: | flash red lights and play let it go
