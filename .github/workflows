@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs: echo
+  build:sound
+
+    runs-on:ubuntu-latest
+
+    steps:typesomthing 
+    - name:Run a one-line script
+     run: echo we are on the high way to hell 
+    - name: Run a multi-line script
+     run: | hey mom are you ok
+     run: ya im fine baby
+     run: raaaaaaaaaaaaaaaaaaaaaaaa
+     actions/checkout@v2: drum symble crashes
+     run: hey tht scared me dad 
+     actions/checkout@v2: laughing
